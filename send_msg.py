@@ -11,4 +11,4 @@ for   y in range(lenght):
         mqueue = mqueue + split[y]+ "\n"
 print(mqueue)
 bot = telepot.Bot('KEY BOT')
-bot.sendMessage(yourr own id,mqueue)
+bot.sendMessage('your own id',mqueue)
