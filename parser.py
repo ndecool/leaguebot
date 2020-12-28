@@ -40,5 +40,5 @@ for   y in range(1):
 	compteur = y+1
 	print(str(compteur)+"/"+str(lenght))
 	out='"'+teamnameblue+" VS "+teamnamered+","+playerb[0]+" | "+playerr[0]+","+playerb[1]+" | "+playerr[1]+","+playerb[2]+" | "+playerr[2]+","+playerb[3]+" | "+playerr[3]+","+playerb[4]+" | "+playerr[4]+","+"Victoire de "+win+" en "+timegame+","+"VOD : "+result["vod"]+","+"Match History :"+result["sources"]["leaguepedia"]["matchHistoryUrl"]+'"'
-	cmd = "/usr/bin/python3 /home/ndecool/leaguebot/test.py "+out
+	cmd = "python 3.6 send_msg.py "+out
 	os.system(cmd)
